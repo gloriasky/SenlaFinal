@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-configuration SYSTEM "http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <mapping class="volodko.ksenia.model.network.User"/>
+        <mapping class="volodko.ksenia.model.network.Forum"/>
+        <mapping class="volodko.ksenia.model.network.ForumMessage"/>
+        <mapping class="volodko.ksenia.model.network.Login"/>
+        <mapping class="volodko.ksenia.model.network.Message"/>
+        <mapping class="volodko.ksenia.model.hockey.Player"/>
+        <mapping class="volodko.ksenia.model.hockey.Number"/>
+        <mapping class="volodko.ksenia.model.hockey.Coach"/>
+        <mapping class="volodko.ksenia.model.hockey.Team"/>
+        <mapping class="volodko.ksenia.model.hockey.Referee"/>
+        <mapping class="volodko.ksenia.model.hockey.Game"/>
+        <mapping class="volodko.ksenia.model.hockey.GameResult"/>
+        <mapping class="volodko.ksenia.model.hockey.Goal"/>
+    </session-factory>
+</hibernate-configuration>
